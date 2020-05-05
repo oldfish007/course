@@ -6,10 +6,10 @@
  * @我的课程 $ http://imooc.com/t/4294850
  * @创建时间 2020-05-05 11:26
  */
-package com.course.system.service;
+package com.course.server.service;
 
-import com.course.system.domain.Test;
-import com.course.system.mapper.TestMapper;
+import com.course.server.domain.Test;
+import com.course.server.mapper.TestMapper;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

@@ -6,10 +6,10 @@
  * @我的课程 $ http://imooc.com/t/4294850
  * @创建时间 2020-04-30 16:02
  */
-package com.course.system.controller;
+package com.course.server.controller;
 
-import com.course.system.domain.Test;
-import com.course.system.service.TestService;
+import com.course.server.domain.Test;
+import com.course.server.service.TestService;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

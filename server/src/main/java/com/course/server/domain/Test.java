@@ -6,9 +6,7 @@
  * @我的课程 $ http://imooc.com/t/4294850
  * @创建时间 2020-05-05 0:36
  */
-package com.course.system.domain;
-
-import org.springframework.stereotype.Component;
+package com.course.server.domain;
 
 /**
  * @author oldfish

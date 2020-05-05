@@ -1,4 +1,4 @@
-package com.course.system;
+package com.course.server;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.slf4j.Logger;
@@ -11,7 +11,7 @@ import org.springframework.core.env.Environment;
 
 @SpringBootApplication
 @EnableEurekaClient
-@MapperScan("com.course.system.mapper")//要让容器知道testmapper这个持久层接口
+@MapperScan("com.course.server.mapper")//要让容器知道testmapper这个持久层接口
 @ComponentScan("com.course")
 public class SystemApplication {
 	private static final Logger logger = LoggerFactory.getLogger(SystemApplication.class);
