@@ -1,24 +1,30 @@
-/**
- * @作者 7七月
- * @微信公号 林间有风
- * @开源项目 $ http://7yue.pro
- * @免费专栏 $ http://course.7yue.pro
- * @我的课程 $ http://imooc.com/t/4294850
- * @创建时间 2020-05-05 11:21
- */
 package com.course.server.mapper;
 
 import com.course.server.domain.Test;
-
+import com.course.server.domain.TestExample;
 import java.util.List;
-
-/**
- * @author oldfish
- * @date 2020-05-05 11:21
- * @version 1.0
- */
+import org.apache.ibatis.annotations.Param;
 
 public interface TestMapper {
+    long countByExample(TestExample example);
 
-    List<Test> list();
+    int deleteByExample(TestExample example);
+
+    int deleteByPrimaryKey(String id);
+
+    int insert(Test record);
+
+    int insertSelective(Test record);
+
+    List<Test> selectByExample(TestExample example);
+
+    Test selectByPrimaryKey(String id);
+
+    int updateByExampleSelective(@Param("record") Test record, @Param("example") TestExample example);
+
+    int updateByExample(@Param("record") Test record, @Param("example") TestExample example);
+
+    int updateByPrimaryKeySelective(Test record);
+
+    int updateByPrimaryKey(Test record);
 }
