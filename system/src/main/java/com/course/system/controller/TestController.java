@@ -6,7 +6,7 @@
  * @我的课程 $ http://imooc.com/t/4294850
  * @创建时间 2020-04-30 16:02
  */
-package com.course.server.controller;
+package com.course.system.controller;
 
 import com.course.server.domain.Test;
 import com.course.server.service.TestService;
